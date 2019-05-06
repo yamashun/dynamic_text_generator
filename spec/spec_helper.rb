@@ -1,5 +1,9 @@
 require "bundler/setup"
 require "dynamic_text_generator"
+require "active_support"
+require "active_support/core_ext"
+
+require "support/dummy_classes.rb"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
