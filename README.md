@@ -78,8 +78,8 @@ table name: notice_temlates
 Obj for template must be respond to methods embedded in template.
 
 ```rb
-obj1 = OpenStruct.new({ title => "Daily", contet_name: "Daily news", url: "https://foo.bar/news"  })
-obj2 = OpenStruct.new({ title => "Limited time sale", campaign_code: "123456", url: "https://foo.bar/campaigns"  })
+obj1 = OpenStruct.new({ title: "Daily", contet_name: "Daily news", url: "https://foo.bar/news"  })
+obj2 = OpenStruct.new({ title: "Limited time sale", campaign_code: "123456", url: "https://foo.bar/campaigns"  })
 ```
 
 #### Class definition
